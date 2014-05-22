@@ -10,6 +10,12 @@ describe('subtract', function () {
     });
 });
 
+describe('multiply',function(){
+    it('should multiply two numbers and return the result',function(){
+        expect(window.multiply(3,2)).toBe(6);
+    });
+});
+
 describe('updateAppState', function () {
     it('should push a new state into the browser history', function () {
         window.updateAppState({
