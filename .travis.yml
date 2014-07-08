@@ -8,6 +8,4 @@ env:
   - secure: 602730b8f5da7e14f87671935251ea17
 notifications:
   email: false
-addons:
-  sauce_connect: true
 before_script: npm install -g karma-cli
